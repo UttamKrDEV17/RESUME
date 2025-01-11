@@ -5,7 +5,11 @@ import java from '../assets/skillLogos/java.svg'
 import Mongodb from '../assets/skillLogos/mongoDB_.svg'
 import mySql from '../assets/skillLogos/mySQL.svg'
 import node from '../assets/skillLogos/nodeJS.svg'
-import logo from '../assets/skillLogos/react.svg'
+import Reactlogo from '../assets/skillLogos/react.svg'
+import cLang from '../assets/skillLogos/c-lang.svg'
+import python from '../assets/skillLogos/python.svg'
+import tailwindlogo from '../assets/skillLogos/tailwindcss.svg'
+import Logos from './Logos'
 
 
 
@@ -20,46 +24,17 @@ function Skill() {
             <p className='text-gray-300 font-inter self-center mt-6 text-lg'>The skills, tools and technologies I am really good at:</p>
 
             <div className='grid grid-cols-5 gap-y-12 mt-20 mb-16'>
-             
-              <div className='flex flex-col items-center justify-center'>
-                <img className='hover:scale-125 transition-transform duration-200' src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
-
-              <div className='flex flex-col items-center justify-center hover:scale-125 transition-transform duration-200'>
-                <img src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
-
-              <div className='flex flex-col items-center justify-center'>
-                <img src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
-
-              <div className='flex flex-col items-center justify-center'>
-                <img src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
-              
-              <div className='flex flex-col items-center justify-center'>
-                <img src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
-
-              <div className='flex flex-col items-center justify-center'>
-                <img src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
-
-              <div className='flex flex-col items-center justify-center'>
-                <img src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
-
-              <div className='flex flex-col items-center justify-center'>
-                <img src={javascipt} width='70px' />
-                <h1 className='text-gray-200 text-xl py-4'>Javascript</h1>
-              </div>
+            
+              <Logos img={java} text={'Java'} />
+              <Logos img={javascipt} text={'Javascript'} />
+              <Logos img={express} text={'Express'} />
+              <Logos img={node} text={'Node'} />
+              <Logos img={Mongodb} text={'MongoDB'} />
+              <Logos img={mySql} text={'MySQL'} />
+              <Logos img={Reactlogo} text={'React'} />
+              <Logos img={cLang} text={'C'} />
+              <Logos img={python} text={'Python'} />
+              <Logos img={tailwindlogo} text={'Tailwind'} />
 
             </div>
     </div>

@@ -11,8 +11,8 @@ const Header = () => {
         
 
         <ul className='flex gap-6 items-center'>
+          <li className='font-inter text-gray-300 hover:text-gray-100'><NavLink to="/">Home</NavLink></li>
           <li className='font-inter text-gray-300 hover:text-gray-100'><NavLink to="/about">About</NavLink></li>
-          <li className='font-inter text-gray-300 hover:text-gray-100'><NavLink to="/work">Work</NavLink></li>
           <li className='font-inter text-gray-300 hover:text-gray-100'><NavLink to="/skills">Skills</NavLink></li>
           <li className='font-inter text-gray-300 hover:text-gray-100'><NavLink to="/contact">Contacts</NavLink></li>
           <Buttons buttonText="Download CV" />

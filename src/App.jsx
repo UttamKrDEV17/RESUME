@@ -5,6 +5,7 @@ import Layout from './components/Layout.jsx'
 import Contacts from './components/Contacts.jsx'
 import Home from './components/Home.jsx'
 import Skill from './components/Skill.jsx'
+import Error from './components/Error.jsx'
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="about" element={ <About /> } />
         <Route path="skills" element={ <Skill />} />
         <Route path="contact" element={<Contacts />} />
+        <Route path="*" element={<Error />} />
       </Route>
     )
   )
